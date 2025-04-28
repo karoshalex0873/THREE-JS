@@ -29,7 +29,7 @@ scene.add(mesh);
 
 // Load a GLB model (TV)
 gltfLoader.load(
-  '/scene.gltf',   // <-- can load .gltf the same way!
+  '/desk.glb',   // <-- can load .gltf the same way!
   (gltf) => {
     const model = gltf.scene;
     scene.add(model);
